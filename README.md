@@ -1,5 +1,5 @@
 # spring-boot-browser-tail
-Using Server Side Events(SSE) this project allows you to tail logs in browser with customisations.
+Using Server Sent Events(SSE) this project allows you to tail logs in browser with customisations.
 
 
 ### Deployment
