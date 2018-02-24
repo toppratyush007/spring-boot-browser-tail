@@ -8,7 +8,7 @@ Clone the project and run the application
 ```
 mvn spring-boot:run
 ```
-*You can customise filename from `.files/test.txt` and increase timeout from default `60s` in pom.xml.*
+*You can also customise filename from `.files/test.txt` and increase timeout from default `60s` in pom.xml.*
 
 ### Playing Around
 
