@@ -67,7 +67,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<file.name>./files/test.txt</file.name>
-		<timeout.interval.millis>60000</timeout.interval.millis>
+		<timeout.interval.millis>600000</timeout.interval.millis>
 	</properties>
 
 

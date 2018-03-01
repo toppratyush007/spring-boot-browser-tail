@@ -10,14 +10,10 @@ import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
  */
 @Service
 public class RegistrationService {
-
-
     @Autowired
     SseRepository sseRepository;
 
-    public SseEmitter registerNodeAndReturnEmitter() {
-        return sseRepository.getSseEmitter();
+    public SseEmitter registerNodeAndReturnEmitter(String fileName) {
+        return sseRepository.getSseEmitter(fileName);
     }
-
-
 }
